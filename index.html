@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css" type="text/css">
+		
+		<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
+	</head>
+	<body>
+		<form action="">
+			<input class="urlInput" id="input" type="text" placeholder="search domain/ip address">
+		</form>
+		<button id="button">Search</button>
+		<ul class="listInfo"></ul>
+
+		<form action="">
+			<input type="text" class="emailInput" placeholder="Enter email address">
+		</form>
+		<button class="emailButton">Look up</button>
+		<ul class="listInfo2"></ul>
+		<form action="">
+			<input type="text" class="phoneInput" placeholder="Enter phone(eg. 27861234567)">
+		</form>
+		<button class="phoneButton">Verify Phone</button>
+
+		<div>
+			<button class="myIp">What's my IP?</button>
+		</div>
+		
+		<h2>View Location</h2>
+		<div id="map" class="map"></div>
+		
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
